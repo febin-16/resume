@@ -1,0 +1,24 @@
+.grid-backgroundd {
+    background-color: #fcf4c4;
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, rgb(70, 70, 70) 0.05vw, transparent 0.05vw),
+    linear-gradient(to bottom, rgb(70, 70, 70) 0.05vw, transparent 0.05vw);
+}
+
+@media (max-width: 767px) {
+    .grid-backgroundd {
+        background-size: 40px 40px; /* Adjust the background size for mobile view */
+        background-image:
+        linear-gradient(to right, rgb(70, 70, 70) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(70, 70, 70) 1px, transparent 1px);
+    }
+}
+.grid-item1 {
+    background-color: black;
+    height: 41px;
+  }    
+  .grid-item2 {
+    background-color: black;
+    height: 41px;
+  }    

@@ -1,0 +1,57 @@
+.wrapper{
+    width:100%;
+    height:250px;
+    position:relative;
+  }
+  
+  .wrapper::after {
+
+  }
+  
+  .box{
+
+    position:absolute;
+    
+    
+  }
+  .box2{
+ 
+    position:absolute;
+    
+  }
+  
+  
+  
+  .boxes {
+    position:relative;
+  }
+  
+  @media (max-width: 767px) {
+    .wrapper{
+      width:100%;
+      height:150px;
+      margin:5px;
+    }
+    
+    .wrapper::after {
+  
+    }
+    
+    .box{
+  
+      position:absolute;
+      
+      
+    }
+    .box2{
+   
+      position:absolute;
+      
+    }
+    
+    
+    
+    .boxes {
+      position:relative;
+    }
+}  

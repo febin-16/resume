@@ -1,0 +1,66 @@
+.hero-section {
+  /* background-image: url("../assets/images/heropic.png");  */
+  /* Set the background color of the hero section */
+}
+.profile-section {
+  background-image: url("../assets/images/profile.png");
+  opacity: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 40px);
+}
+
+.grid-item {
+  background-color: black;
+  height: 41px;
+}
+
+.dotted-line {
+  display: flex;
+}
+
+.dot {
+  flex-grow: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.dot.white {
+  background-color: #741bd4;
+}
+
+.dot:not(.white) {
+  background-color: #fbf0c2;
+}
+
+.text {
+  color: #fbf0c2;
+}
+
+.dud {
+  color: #fbf0c2;
+}
+
+@media (max-width: 767px) {
+  .dotted-line {
+    display: flex;
+  }
+
+  .dot {
+    flex-grow: 1;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+  }
+
+  .dot.white {
+    background-color: #741bd4;
+  }
+
+  .dot:not(.white) {
+    background-color: #fbf0c2;
+  }
+}
